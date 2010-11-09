@@ -10,69 +10,82 @@ html{color:#000;background:#FFF;}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pr
 html,body{	background-color:#dcdffb; 
 	color: black; 
 	font-family: Helvetica, Arial, sans-serif;
-	padding: 5px;
+	padding: 10px;
 	}
 
 strong {font-weight:bold;}
 
 h1, h2 {color:#1486DE;}
 
-h1 {font-size: 20pt; font-weight: bold; padding-top: 15px; margin-top: 25px; margin-bottom:20px; margin-left: 10px;}
-h2 {font-size: 14pt; font-weight: bold; margin-bottom:5px; margin-left: 10px;}
+h1 {font-size: 20pt; font-weight: bold; padding-top: 15px; margin-top: 25px; margin-bottom:25px; margin-left: 10px;}
+h2 {font-size: 14pt; font-weight: bold; margin-top: 10px; margin-bottom:5px; margin-left: 10px;}
 
-a {text-decoration:none}
-a:visited{color: #FED700;}
+
+div#title-primary  a:visited{
+color: #1486DE;
+}
+
+a{
+text-decoration:none;
+color: #1486DE;
+}
+
+a:hover{
+font-weight:bold;
+text-decoration: underline;
+}
 
 
 ul#contact, ul#education, ul#experience, ul#technology, li{margin-left:15px;}
 ul#contact {margin-bottom:10px;}
 
-p {	width: 600px;
-	font-size: 11pt;
-	font-weight: normal;
-	font-style: normal;
-	text-align: justify;
-	margin-bottom: 15px;
-	margin-left: 10px;
-	}
+p {	
+width: 600px;
+font-size: 11pt;
+font-weight: normal;
+font-style: normal;
+text-align: justify;
+margin-bottom: 20px;
+margin-left: 10px;
+}
 
 .resume-details{margin-bottom:10px}
 
 
 div#page {
-padding-top: 130px;
+padding-top: 120px;
 width: 960px;
 margin: 0px auto;
 position: relative;
 }
 
 div#background {
-	position: absolute;					
-	height: 100%;
-	left: 50%;						
-	margin-left:-490px;				
-	}
+position: absolute;					
+height: 100%;
+left: 50%;						
+margin-left:-490px;				
+}
 	
 	
 div#padded-area {
-	position: absolute;
-	background: #1486DE;
-	width: 970px;					
-	padding: 5px;
-	}
+position: absolute;
+background: #1486DE;
+width: 970px;					
+padding: 5px;
+}
 
 
 div#titlebar {
 position: absolute;
 background: #1486DE;
 height: 125px;					
-width: 940px;					
-top: 5px;
+width: 960px;					
+top: 0px;
 left: 0px;
 padding: 5px;					
 }
 
-.title_primary {	
+.title-primary {	
 color: #FED700;
 font-size: 36pt;
 font-weight: bold;
@@ -80,7 +93,7 @@ font-weight: bold;
 
 div#logo {
 position: absolute;
-top: 12px;
+top: 2px;
 left: 260px;
 }
 
@@ -99,8 +112,8 @@ text-decoration: none;
 
 ul#navigation {
 position: absolute;
-top: 110px;
-left: 520px;
+top: 100px;
+left: 525px;
 list-style:none;
 }
 
