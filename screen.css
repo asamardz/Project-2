@@ -4,7 +4,7 @@ Code licensed under the BSD License:
 http://developer.yahoo.com/yui/license.html
 version: 2.8.1
 */
-html{color:#000;background:#FFF;}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td{margin:0;padding:0;}table{border-collapse:collapse;border-spacing:0;}fieldset,img{border:0;}address,caption,cite,code,dfn,em,strong,th,var,optgroup{font-style:inherit;font-weight:inherit;}del,ins{text-decoration:none;}li{list-style:none;}caption,th{text-align:left;}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}q:before,q:after{content:'';}abbr,acronym{border:0;font-variant:normal;}sup{vertical-align:baseline;}sub{vertical-align:baseline;}legend{color:#000;}input,button,textarea,select,optgroup,option{font-family:inherit;font-size:inherit;font-style:inherit;font-weight:inherit;}input,button,textarea,select{*font-size:100%;}
+html{color:#000;background:#FFF;}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td{margin:0;padding:0;}table{border-collapse:collapse;border-spacing:0;}fieldset,img{border:0;}address,caption,cite,code,dfn,em,strong,th,var,optgroup{font-style:inherit;font-weight:inherit;}del,ins{text-decoration:none;}li{list-style:none;}caption,th{text-align:left;}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}q:before,q:after{content:'';}abbr,acronym{border:0;font-variant:normal;}sup{vertical-align:baseline;}sub{vertical-align:baseline;}legend{color:#000;}input,button,textarea,select,optgroup,option{font-family:inherit;font-size:inherit;font-style:inherit;font-weight:inherit;}
 
 
 html,body{	background-color:#dcdffb; 
@@ -17,13 +17,9 @@ strong {font-weight:bold;}
 
 h1, h2 {color:#1486DE;}
 
-h1 {font-size: 20pt; font-weight: bold; padding-top: 15px; margin-top: 25px; margin-bottom:25px; margin-left: 10px;}
+h1 {font-size: 20pt; font-weight: bold; padding-top: 15px; margin-top: 25px; margin-bottom:20px; margin-left: 10px;}
 h2 {font-size: 14pt; font-weight: bold; margin-top: 10px; margin-bottom:5px; margin-left: 10px;}
-
-
-div#title-primary  a:visited{
-color: #1486DE;
-}
+h3{font-size: 12pt; font-weight: bold; margin-top: 10px; margin-bottom:5px; margin-left: 10px;}
 
 a{
 text-decoration:none;
@@ -55,7 +51,7 @@ margin-left: 10px;
 div#page {
 padding-top: 120px;
 width: 960px;
-margin: 0px auto;
+margin: -5px auto;
 position: relative;
 }
 
@@ -78,28 +74,40 @@ padding: 5px;
 div#titlebar {
 position: absolute;
 background: #1486DE;
-height: 125px;					
+height: 130px;					
 width: 960px;					
-top: 0px;
+top: 5px;
 left: 0px;
 padding: 5px;					
 }
 
 .title-primary {	
 color: #FED700;
-font-size: 36pt;
+font-size: 37pt;
 font-weight: bold;
 }	
 
 div#logo {
 position: absolute;
 top: 2px;
-left: 260px;
+left: 265px;
 }
 
 
 div#content { 
 background-color: white; 
+}
+
+div#thomson-reuters-video {
+position: absolute;	
+top: 492px;	
+right: 20px;
+}
+
+div#future-food-video {
+position: absolute;	
+top: 902px;	
+right: 20px;
 }
 
 
@@ -131,7 +139,7 @@ position: absolute;
 left: -20000px;
 }
 
-
+.skip-nav {display:none}
 
 
 

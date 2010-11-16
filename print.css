@@ -4,17 +4,28 @@ Code licensed under the BSD License:
 http://developer.yahoo.com/yui/license.html
 version: 2.8.1
 */
-html{color:#000;background:#FFF;}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td{margin:0;padding:0;}table{border-collapse:collapse;border-spacing:0;}fieldset,img{border:0;}address,caption,cite,code,dfn,em,strong,th,var,optgroup{font-style:inherit;font-weight:inherit;}del,ins{text-decoration:none;}li{list-style:none;}caption,th{text-align:left;}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}q:before,q:after{content:'';}abbr,acronym{border:0;font-variant:normal;}sup{vertical-align:baseline;}sub{vertical-align:baseline;}legend{color:#000;}input,button,textarea,select,optgroup,option{font-family:inherit;font-size:inherit;font-style:inherit;font-weight:inherit;}input,button,textarea,select{*font-size:100%;}
+html{color:#000;background:#FFF;}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td{margin:0;padding:0;}table{border-collapse:collapse;border-spacing:0;}fieldset,img{border:0;}address,caption,cite,code,dfn,em,strong,th,var,optgroup{font-style:inherit;font-weight:inherit;}del,ins{text-decoration:none;}li{list-style:none;}caption,th{text-align:left;}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}q:before,q:after{content:'';}abbr,acronym{border:0;font-variant:normal;}sup{vertical-align:baseline;}sub{vertical-align:baseline;}legend{color:#000;}input,button,textarea,select,optgroup,option{font-family:inherit;font-size:inherit;font-style:inherit;font-weight:inherit;}
 
 
 html,body{	background-color:white;
 	color: black;
 	margin-left: 10px;
 	}
+	
+strong {font-weight:bold;}
 
-h1 {color: black; font-size: 18pt; font-weight: bold; font-family: Helvetica, Arial, sans-serif; margin-bottom:15px}
+h1 {color: black; font-size: 18pt; font-weight: bold; font-family: Helvetica, Arial, sans-serif; padding-top: 15px; margin-top: 25px; margin-bottom:20px; margin-left: 10px;}
+h2 {color: black; font-size: 14pt; font-weight: bold; font-family: Helvetica, Arial, sans-serif; margin-top: 10px; margin-bottom:5px; margin-left: 10px;}
+h3{color: black; font-size: 12pt; font-weight: bold; font-family: Helvetica, Arial, sans-serif; margin-top: 10px; margin-bottom:5px; margin-left: 10px;}
 
-h2 {color: black; font-size: 14pt; font-weight: bold; font-family: Helvetica, Arial, sans-serif; margin-bottom:5px}
+a{
+text-decoration:none;
+}
+
+a:hover{
+font-weight:bold;
+text-decoration: underline;
+}
 
 ul#contact, ul#education, ul#experience, ul#technology, li{margin-left:15px; font-size: 9.5pt;}
 ul#contact {margin-bottom:10px;}
@@ -28,3 +39,41 @@ p {	width: 600px;
 	text-align: justify;
 	font-family:"Times New Roman", Roman, serif;
 	}
+
+.title-primary {	
+color: black;
+font-size: 27pt;
+font-weight: bold;
+}	
+
+div#logo {
+position: absolute;
+top: 2px;
+left: 265px;
+}
+
+div#content { 
+background-color: white; 
+}
+
+ul#navigation a {
+font-size: 18pt;
+font-weight:bold;
+text-decoration: none;
+}
+
+
+ul#navigation li {
+float: left;
+}
+
+ul#navigation a:hover, a:active {
+text-decoration:none;
+}
+
+ul.accessibility {
+position: absolute;
+left: -20000px;
+}
+
+.skip-nav {display:none}
