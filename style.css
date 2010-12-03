@@ -1,0 +1,213 @@
+/*  
+Theme Name: Aaron Samardzich's Theme
+Theme URI: http://example.com/example/
+Description: A search engine optimized website framework for WordPress.
+Author: Aaron Samardzich
+Author URI: http://example.com/
+Version: 1.0
+Tags: Comma-separated tags that describe your theme
+.
+Your theme can be your copyrighted work.
+Like WordPress, this work is released under GNU General Public License, version 2 (GPL).
+http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
+.
+*/
+
+/* Reset default browser styles */
+@import url('styles/reset.css');
+
+/* Rebuild default browser styles */
+@import url('styles/rebuild.css');
+
+/* Import a basic layout */
+@import url('styles/2c-r.css');
+
+/* Basic WordPress Styles 
+@import url('styles/wp.css');*/
+
+
+
+html,body{	
+background-color:#dcdffb; 
+color: black; 
+font-family: Helvetica, Arial, sans-serif;
+padding: 10px;
+}
+
+strong {font-weight:bold;}
+
+
+h1, h2 {color:#1486DE;}
+
+h1 {font-size: 20pt; font-weight: bold; padding-top: 15px; margin-top: 25px; margin-bottom:20px; margin-left: 10px;}
+h2 {font-size: 14pt; font-weight: bold; margin-top: 10px; margin-bottom:5px; margin-left: 10px;}
+h3{font-size: 12pt; font-weight: bold; margin-top: 10px; margin-bottom:5px; margin-left: 10px;}
+
+a{
+text-decoration:none;
+color: #1486DE;
+}
+
+a:hover{
+font-weight:bold;
+text-decoration: underline;
+}
+
+
+
+p {	
+width: 600px;
+font-size: 11pt;
+font-weight: normal;
+font-style: normal;
+text-align: justify;
+margin-bottom: 20px;
+margin-left: 10px;
+}
+
+
+div#page {
+padding-top: 110px;
+width: 960px;
+margin: -5px auto;
+position: relative;
+}
+
+div#background {
+position: absolute;					
+height: 100%;
+left: 50%;						
+margin-left:-490px;				
+}
+	
+	
+div#padded-area {
+position: absolute;
+background: #1486DE;
+width: 970px;					
+padding: 5px;
+}
+
+div#intro-text {
+/*position: absolute;*/
+width: 620px;
+background-color: white; 
+}
+
+div#whole-sidebar {
+width: 320px;
+background-color: white; 
+position: absolute;
+left:640px;
+font-size: 11pt;
+top: 145px;
+
+}
+
+div#titlebar {
+position: absolute;
+background: #1486DE;
+height: 130px;					
+width: 960px;					
+top: 5px;
+left: 0px;
+padding: 5px;					
+}
+
+.title-primary {	
+color: #FED700;
+font-size: 37pt;
+font-weight: bold;
+}	
+
+div#logo {
+position: absolute;
+top: 2px;
+left: 265px;
+}
+
+
+
+
+
+
+
+
+
+/* =Menu
+-------------------------------------------------------------- */
+
+#access {
+
+overflow: auto;
+}
+.skip-link {
+display: none;
+}
+
+
+
+/* =Content
+-------------------------------------------------------------- */
+
+.post {
+width: 620px;	
+margin: 0 0 1em 0;
+background-color: white;       
+}
+.entry-content, .entry-summary {
+width: 600px;	
+margin: 1.5em 0 0 0;
+background-color: white; 
+}
+
+
+/* =Navigation
+-------------------------------------------------------------- */
+
+
+
+ul#navigation a {
+color: #FED700;
+font-size: 18pt;
+font-weight:bold;
+text-decoration: none;
+}
+
+ul#navigation {
+position: absolute;
+top: 80px;
+left: 525px;
+list-style:none;
+}
+
+ul#navigation li {
+float: left;
+}
+
+ul#navigation a:hover, a:active {
+color:#000;
+text-decoration:none;
+}
+
+
+
+
+/* =Widget Areas
+-------------------------------------------------------------- */
+
+.widget-area ul {
+list-style: none;
+margin-left: 0;
+}
+.widget-area ul ul {
+list-style: disc;
+margin-left: 1.1em;
+}
+.widget-area ul ul ul {
+        margin-left: 2.5em;
+}
+.widget-container {
+        margin: 0 0 1.5em 0;
+}
+
